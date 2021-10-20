@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cairo", sans-serif;
+  font-family: "Oswald", sans-serif;
+  text-transform: capitalize;
+}
+.container {
+  width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: 200px;
+  background-image: url("../img/9208945713671886.jpg");
+  background-color: #eee;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.mother-circle {
+  width: 80px;
+  height: 80px;
+  border: 5px solid #27ae60;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto 0;
+}
+.mother-circle .circle {
+  width: 70%;
+  height: 70%;
+  border: 5px solid #27ae60;
+  border-right: 7px solid transparent;
+  border-radius: 50%;
+}
+.copy {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+.copy h2 {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(96 100 106);
+}
+.copy p {
+  line-height: 1.8;
+  width: 430px;
+  margin-left: 292px;
+  color: #777;
+}
+button:active {
+  box-shadow: 2px 2px 4px #000;
+}
+.copy button {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  margin-top: 20px;
+  outline: none;
+}
+.copy button:first-of-type {
+  background-color: #27ae60;
+  margin-right: 7px;
+}
+.copy button:last-of-type {
+  background-color: rgb(96, 96, 233);
+  margin-bottom: 60px;
+}
+.track {
+  text-align: center;
+}
+.track h3 {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(96 100 106);
+}
+.track p {
+  line-height: 1.8;
+  width: 430px;
+  margin-left: 292px;
+  color: #777;
+}
+.photo {
+  padding-top: 40px;
+}
+.photo img {
+  width: 50%;
+}
+.section-1 {
+  overflow: hidden;
+}
+.could {
+  float: right;
+  width: 45%;
+  margin-top: 60px;
+}
+.could .text h3 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: -10px;
+  color: rgb(96 100 106);
+}
+.could .text p {
+  line-height: 1.7;
+  color: #999;
+}
+.any {
+  text-align: center;
+  margin-top: 90px;
+}
+.any h2 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: -10px;
+  color: rgb(96 100 106);
+}
+.any p {
+  width: 400px;
+  line-height: 1.7;
+  color: #999;
+  margin-left: 300px;
+}
+.picture {
+  text-align: center;
+}
+.picture img {
+  width: 500px;
+  height: 350px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.test {
+  text-align: center;
+}
+.test h2 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: -10px;
+  color: rgb(96 100 106);
+}
+.test p {
+  width: 400px;
+  line-height: 1.7;
+  color: #999;
+  margin-left: 300px;
+}
+.icon-text i {
+  font-size: 60px;
+}
+.pop {
+  display: flex;
+  text-align: center;
+}
+.pop .icon-text {
+  margin: 10px;
+  padding: 20px;
+  height: 250px;
+  width: 300px;
+}
+.pop .icon-text i {
+  color: #666;
+  font-size: 30px;
+  margin-left: 7px;
+}
+.pop .icon-text h2 {
+  color: #444;
+  text-align: center;
+  text-transform: capitalize;
+}
+.pop .icon-text p {
+  color: #777;
+  line-height: 1.6;
+}
+.spn {
+  display: flex;
+  height: 180px;
+}
+.spn span {
+  margin: 10px;
+  padding: 20px;
+  height: 250px;
+  width: 300px;
+  color: #888;
+  font-family: sans-serif;
+  line-height: 0.9;
+}
+.footer {
+  width: 100%;
+  background-color: #eee;
+  padding: 20px;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer .container .sp {
+  line-height: 2;
+}
+.footer .container .sp span:first-child {
+  margin-right: 80px;
+}
+.footer .container .sp span {
+  margin-right: 60px;
+}
+.footer .container .mother-circle {
+  width: 60px;
+  height: 60px;
+  margin: 0;
+}
+.footer .container .mother-circle .circle {
+  width: 70%;
+  height: 70%;
+}
+button{
+  cursor:pointer;
+}
